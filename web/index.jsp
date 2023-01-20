@@ -15,6 +15,9 @@
   $END$
 --%>
   <h1>index.jsp</h1>
-  <% System.out.println("hello git!");%>
+  <%
+    System.out.println("hello git!");
+    System.out.println("hello git2!");
+  %>
   </body>
 </html>
